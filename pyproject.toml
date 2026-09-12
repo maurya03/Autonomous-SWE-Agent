@@ -1,0 +1,16 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="autonomous-software-engineer"
+version="1.0.0"
+description="Inspectable autonomous software engineering agent with tools, memory, approvals and MCP"
+requires-python=">=3.12"
+dependencies=[]
+
+[project.optional-dependencies]
+test=["pytest>=8"]
+
+[project.scripts]
+autonomous-swe="agent.cli:main"

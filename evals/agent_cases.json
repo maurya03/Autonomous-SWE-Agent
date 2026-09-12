@@ -1,0 +1,5 @@
+[
+ {"goal":"inspect repository","expected_tools":["list_files"]},
+ {"goal":"inspect repository and run tests","expected_tools":["list_files","run_tests"]},
+ {"goal":"find authentication code","expected_tools":["list_files","search_text"]}
+]
